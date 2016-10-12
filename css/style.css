@@ -1,0 +1,33 @@
+
+
+
+#mainheader{  background-color: white;	
+		   	 border-radius: 0px;
+		   	 border-bottom: 5px solid black;
+		   	 padding-bottom:0px;
+		   	}
+
+.container{ margin:0px;
+			padding: 0px;
+
+ 		   }
+
+#dogheader{ height: 100px;
+			padding-left :30px;
+			padding-top: 10px;
+
+		  }
+
+#adog{ padding:0px;height: 90px;
+	 
+ }
+#anim{height: 80px; width: 0px;
+
+ transition: width 1s;
+}
+
+
+#adog:hover #anim{ width: 80px;
+-webkit-transition-timing-function: linear;
+ }
+
