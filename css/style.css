@@ -15,12 +15,13 @@
 #dogheader{ height: 100px;
 			padding-left :30px;
 			padding-top: 10px;
-
 		  }
 
 #adog{ padding:0px;height: 90px;
 	 
  }
+
+
 #anim{height: 80px; width: 0px;
 
  transition: width 1s;
@@ -31,3 +32,60 @@
 -webkit-transition-timing-function: linear;
  }
 
+
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {}
+
+
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+#adog img{ height: 75px; }
+
+#mainheader{height: 90px;
+			 border-bottom: 3px solid black;
+			}
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+#adog img{ height: 65px; }
+
+#mainheader{height: 80px;
+			 border-bottom: 2px solid black;
+			}
+
+
+}
+
+
+/********** Extra small devices only **********/
+
+@media (max-width: 767px) {
+
+
+#adog img{ height: 55px; }
+
+#mainheader{height: 70px;
+			 border-bottom: 2px solid black;
+			}
+ 
+#anim{height: 80px; width: 80px;
+
+		}
+
+
+  }
+
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+
+
+}
